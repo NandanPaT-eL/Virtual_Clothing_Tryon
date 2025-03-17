@@ -36,3 +36,13 @@ for image in os.listdir(folder_dir):
         output_image = os.path.join(output_folder, os.path.basename(image))
         process_image(input_image, output_image)
         print("Saved as ", os.path.basename(image))
+
+folder_dir = "/Users/nandanpatel/Projects/AI Clothing Tryon/Dataset/test/cloth"
+output_folder = "/Users/nandanpatel/Projects/AI Clothing Tryon/Dataset/test/cloth_mask"
+os.makedirs(output_folder, exist_ok=True)
+for image in os.listdir(folder_dir):
+    if (image.endswith(".jpg")):
+        input_image = os.path.join(folder_dir, image)
+        output_image = os.path.join(output_folder, os.path.basename(image))
+        process_image(input_image, output_image)
+        print("Saved as ", os.path.basename(image))
