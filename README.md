@@ -140,5 +140,4 @@ This implementation is based on the [Self-Correction-Human-Parsing (SCHP)](https
 ## Acknowledgements
 This project is part of the AI Clothing Try-On dataset preparation pipeline.
 
-Special thanks to the [Self-Correction-Human-Parsing (SCHP)](https://github.com/GoGoDuck912/Self-Correction-Human-Parsing) repository for providing the human parsing model.
 
